@@ -1,14 +1,15 @@
-import { AccordionOne, ButtonOne, FooterOne, HeaderOne, ButtonTwo } from './components'
+import { AccordionOne, ButtonOne, FooterOne, HeaderOne, ButtonTwo, BannerOne } from './components'
 
 export function App() {
   return (
     <>
-     <HeaderOne />
-     <div className='h-[40vh]'></div>
-     <ButtonOne />
-     <ButtonTwo />
-     <AccordionOne />
-     <FooterOne />
+      <BannerOne />
+      <HeaderOne />
+      <div className='h-[40vh]'></div>
+      <ButtonOne />
+      <ButtonTwo />
+      <AccordionOne />
+      <FooterOne />
     </>
   )
 }
